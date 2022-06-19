@@ -187,7 +187,7 @@ class install_plugins(ProtectedPage):
             for f in short_list:
                 pf = f.split()
                 response = urlopen(
-                    u"https://raw.github.com/Dan-in-CA/SIP_plugins/master/"
+                    u"https://raw.github.com/rzhukov/SIP_plugins/master/"
                     + p
                     + u"/"
                     + pf[0]
